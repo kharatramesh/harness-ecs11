@@ -1,0 +1,13 @@
+{
+  "cluster": "ecs1",
+  "serviceName": "sample-web-service",
+  "taskDefinition": "sample-web-server",
+  "desiredCount": 2,
+  "launchType": "FARGATE",
+  "networkConfiguration": {
+    "awsvpcConfiguration": {
+      "subnets": ["subnet-0b4a81a90506cf251"],
+      "securityGroups": ["sg-00ab88fadc12cf79a"]
+    }
+  }
+}
