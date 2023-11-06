@@ -3,7 +3,7 @@
   "serviceName": "sample-web-service",
   "taskDefinition": "sample-web-server",
   "desiredCount": 2,
-  "launchType": "FARGATE",
+  "launchType": "EC2",
   "networkConfiguration": {
     "awsvpcConfiguration": {
       "subnets": ["subnet-0b4a81a90506cf251"],
